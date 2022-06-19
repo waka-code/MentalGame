@@ -28,6 +28,7 @@ function contarTiempo(){
         if(timer==0){
         clearInterval(Stoop)
         stopTarjetars()
+        tiemp.innerHTML=`Perdiste: ${timer} seg`;
         }
     },1000)
 }
