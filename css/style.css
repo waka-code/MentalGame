@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(157, 171, 187, 1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(157, 171, 187, 0.3);
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    height: 95vh;
+    justify-content: center;
+}
+
+.cubo {
+    height: 90%;
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+}
+
+.contenedor .cubo h1{
+    font-size: 40px;
+}
+
+.cubo button{
+    padding: 10%;
+    width: 1%;
+    height:19vh;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.cubo button:hover{
+    background: rgb(129, 144, 161);
+}
+
+.seguimientoGame{
+    height: 80%;
+    width: 20%;
+    padding: 10px;
+    line-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.seguimientoGame p{
+    padding: 10px;
+}
