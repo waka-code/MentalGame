@@ -1,0 +1,74 @@
+@media (max-width:900px){
+
+    .contenedor{
+        height: 100vh;
+    }
+    .cubo {
+        width: 70%;
+    }
+
+    .contenedor .cubo h1{
+        font-size: 30px;
+    }
+    .seguimientoGame{
+        line-height: 60px;
+    }
+       .seguimientoGame p{
+    padding: 5px;
+    font-size: 20px;
+}
+}
+
+@media (max-width:650px){
+
+    .cubo {
+        width: 80%;
+    }
+
+    .contenedor .cubo h1{
+        font-size: 25px;
+    }
+    .seguimientoGame{
+        line-height: 70px;
+        height: 70%;
+    }
+       .seguimientoGame p{
+    padding: 3px;
+    font-size: 15px;
+}
+}
+
+@media (max-width:500px){
+
+    
+    .cubo {
+        width: 90%;
+    }
+
+    .seguimientoGame{
+        line-height: 50px;
+        height: 60%;
+    }
+  
+}
+
+@media (max-width:400px){
+
+    .cubo {
+        height: 50vh;
+    }
+    .cubo button{
+        
+        height:12vh;
+    }
+
+    .seguimientoGame{
+        height: 50%;
+    }
+    .seguimientoGame p{
+        padding: 2px;
+        font-size: 10px;
+    }
+
+  
+}

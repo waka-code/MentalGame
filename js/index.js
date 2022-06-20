@@ -54,7 +54,7 @@ function iniciaGame(id){
     if(tarjetaDestapadas == 1){
         tarjeta1 = document.getElementById(id)
         result1=NumOrdenado[id];
-        tarjeta1.innerHTML=result1
+        tarjeta1.innerHTML=result1 
         tarjeta1.disabled = true;
     }
     else if(tarjetaDestapadas == 2){
